@@ -177,7 +177,7 @@ body {
 }
 
 .hidden {
- opacity: 0;
+  opacity: 0;
 }
 
 /* Responsive Images */
@@ -185,396 +185,318 @@ img {
   max-width: 100%;
   height: auto;
 }
- 
- #background 
-{ 
-	 left: 0px; 
-	 top: 0px; 
-	 position: relative; 
-	 margin-left: auto; 
-	 margin-right: auto; 
-	 width: 1920px;
-	 height: 698px; 
-	 overflow: hidden;
-	 z-index:0;
-	} 
 
- #Background 
-{ 
-	 left: 0px; 
-	 top: 0px; 
-	 position: absolute; 
-	 width: 1920px;
-	 height: 698px;
-	 z-index:1;
-} 
+#background {
+  left: 0px;
+  top: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
+  height: 698px;
+  overflow: hidden;
+}
 
- #Floor1 
-{ 
-	 left: 56px; 
-	 top: 27px; 
-	 position: absolute; 
-	 width: 1808px;
-	 height: 644px;
-	 z-index:2;
-} 
+#Background {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 1920px;
+  height: 698px;
+}
 
- #EnglishSSFloor1 
-{ 
-	 left: 71px; 
-	 top: 92px; 
-	 position: absolute; 
-	 width: 193px;
-	 height: 123px;
-	 z-index:3;
-} 
+#Floor1 {
+  left: 56px;
+  top: 27px;
+  position: absolute;
+  width: 1808px;
+  height: 644px;
+}
 
- #PerformingArtsFloor1 
-{ 
-	 left: 506px; 
-	 top: 165px; 
-	 position: absolute; 
-	 width: 257px;
-	 height: 138px;
-	 z-index:4;
-} 
+#EnglishSSFloor1 {
+  left: 71px;
+  top: 92px;
+  position: absolute;
+  width: 193px;
+  height: 123px;
+}
 
- #StudentServicesFloor 
-{ 
-	 left: 506px; 
-	 top: 279px; 
-	 position: absolute; 
-	 width: 156px;
-	 height: 226px;
-	 z-index:5;
-} 
+#PerformingArtsFloor1 {
+  left: 506px;
+  top: 165px;
+  position: absolute;
+  width: 257px;
+  height: 138px;
+}
 
- #Floor2 
-{ 
-	 left: 57px; 
-	 top: 31px; 
-	 position: absolute; 
-	 width: 1808px;
-	 height: 637px;
-	 z-index:6;
-} 
+#StudentServicesFloor {
+  left: 506px;
+  top: 279px;
+  position: absolute;
+  width: 156px;
+  height: 226px;
+}
 
- #MathFloor2 
-{ 
-	 left: 71px; 
-	 top: 83px; 
-	 position: absolute; 
-	 width: 1133px;
-	 height: 291px;
-	 z-index:7;
-} 
+#Floor2 {
+  left: 57px;
+  top: 31px;
+  position: absolute;
+  width: 1808px;
+  height: 637px;
+}
 
- #ScienceFloor2 
-{ 
-	 left: 262px; 
-	 top: 339px; 
-	 position: absolute; 
-	 width: 162px;
-	 height: 260px;
-	 z-index:8;
-} 
+#MathFloor2 {
+  left: 71px;
+  top: 83px;
+  position: absolute;
+  width: 1133px;
+  height: 291px;
+}
 
- #EnglishSSFloor2 
-{ 
-	 left: 93px; 
-	 top: 88px; 
-	 position: absolute; 
-	 width: 634px;
-	 height: 511px;
-	 z-index:9;
-} 
+#ScienceFloor2 {
+  left: 262px;
+  top: 339px;
+  position: absolute;
+  width: 162px;
+  height: 260px;
+}
 
- #ArtFloor2 
-{ 
-	 left: 392px; 
-	 top: 102px; 
-	 position: absolute; 
-	 width: 372px;
-	 height: 299px;
-	 z-index:10;
-} 
+#EnglishSSFloor2 {
+  left: 93px;
+  top: 88px;
+  position: absolute;
+  width: 634px;
+  height: 511px;
+}
 
- #PerformingArtsFloor2 
-{ 
-	 left: 585px; 
-	 top: 341px; 
-	 position: absolute; 
-	 width: 24px;
-	 height: 85px;
-	 z-index:11;
-} 
+#ArtFloor2 {
+  left: 392px;
+  top: 102px;
+  position: absolute;
+  width: 372px;
+  height: 299px;
+}
 
- #Floor3 
-{ 
-	 left: 57px; 
-	 top: 28px; 
-	 position: absolute; 
-	 width: 1808px;
-	 height: 644px;
-	 z-index:12;
-} 
+#PerformingArtsFloor2 {
+  left: 585px;
+  top: 341px;
+  position: absolute;
+  width: 24px;
+  height: 85px;
+}
 
- #MathFloor3 
-{ 
-	 left: 624px; 
-	 top: 99px; 
-	 position: absolute; 
-	 width: 214px;
-	 height: 208px;
-	 z-index:13;
-} 
+#Floor3 {
+  left: 57px;
+  top: 28px;
+  position: absolute;
+  width: 1808px;
+  height: 644px;
+}
 
- #ScienceFloor3 
-{ 
-	 left: 333px; 
-	 top: 389px; 
-	 position: absolute; 
-	 width: 21px;
-	 height: 18px;
-	 z-index:14;
-} 
+#MathFloor3 {
+  left: 624px;
+  top: 99px;
+  position: absolute;
+  width: 214px;
+  height: 208px;
+}
 
- #HealthFloor3 
-{ 
-	 left: 599px; 
-	 top: 227px; 
-	 position: absolute; 
-	 width: 46px;
-	 height: 85px;
-	 z-index:15;
-} 
+#ScienceFloor3 {
+  left: 333px;
+  top: 389px;
+  position: absolute;
+  width: 21px;
+  height: 18px;
+}
 
- #EnglishSSFloor3 
-{ 
-	 left: 68px; 
-	 top: 82px; 
-	 position: absolute; 
-	 width: 714px;
-	 height: 427px;
-	 z-index:16;
-} 
+#HealthFloor3 {
+  left: 599px;
+  top: 227px;
+  position: absolute;
+  width: 46px;
+  height: 85px;
+}
 
- #WorldLanguageFloor3 
-{ 
-	 left: 307px; 
-	 top: 85px; 
-	 position: absolute; 
-	 width: 413px;
-	 height: 268px;
-	 z-index:17;
-} 
+#EnglishSSFloor3 {
+  left: 68px;
+  top: 82px;
+  position: absolute;
+  width: 714px;
+  height: 427px;
+}
 
- #StudentServicesFloor_0 
-{ 
-	 left: 493px; 
-	 top: 77px; 
-	 position: absolute; 
-	 width: 727px;
-	 height: 363px;
-	 z-index:18;
-} 
+#WorldLanguageFloor3 {
+  left: 307px;
+  top: 85px;
+  position: absolute;
+  width: 413px;
+  height: 268px;
+}
 
- #SETTHESEROOMSTOSCIEN 
-{ 
-	 left: 259px; 
-	 top: 390px; 
-	 position: absolute; 
-	 width: 207px;
-	 height: 209px;
-	 z-index:19;
-} 
+#StudentServicesFloor_0 {
+  left: 493px;
+  top: 77px;
+  position: absolute;
+  width: 727px;
+  height: 363px;
+}
 
- #Floor4 
-{ 
-	 left: 57px; 
-	 top: 42px; 
-	 position: absolute; 
-	 width: 1808px;
-	 height: 615px;
-	 z-index:20;
-} 
+#SETTHESEROOMSTOSCIEN {
+  left: 259px;
+  top: 390px;
+  position: absolute;
+  width: 207px;
+  height: 209px;
+}
 
- #WorldLanguageFloor4 
-{ 
-	 left: 282px; 
-	 top: 69px; 
-	 position: absolute; 
-	 width: 346px;
-	 height: 129px;
-	 z-index:21;
-} 
+#Floor4 {
+  left: 57px;
+  top: 42px;
+  position: absolute;
+  width: 1808px;
+  height: 615px;
+}
 
- #PerformingArtsFloor4 
-{ 
-	 left: 512px; 
-	 top: 346px; 
-	 position: absolute; 
-	 width: 121px;
-	 height: 151px;
-	 z-index:22;
-} 
+#WorldLanguageFloor4 {
+  left: 282px;
+  top: 69px;
+  position: absolute;
+  width: 346px;
+  height: 129px;
+}
 
- #MathVertical 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:23;
-} 
+#PerformingArtsFloor4 {
+  left: 512px;
+  top: 346px;
+  position: absolute;
+  width: 121px;
+  height: 151px;
+}
 
- #MathDiagonal 
-{ 
-	 left: 877px; 
-	 top: 5px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 119px;
-	 z-index:24;
-} 
+#MathVertical {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
 
- #ScienceVertical 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:25;
-} 
+#MathDiagonal {
+  left: 877px;
+  top: 5px;
+  position: absolute;
+  width: 118px;
+  height: 119px;
+}
 
- #ScienceDiagonal 
-{ 
-	 left: 729px; 
-	 top: 0px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 118px;
-	 z-index:26;
-} 
+#ScienceVertical {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
 
- #EnglishSSVertical 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:27;
-} 
+#ScienceDiagonal {
+  left: 729px;
+  top: 0px;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+}
 
- #EnglishSSDiagonal 
-{ 
-	 left: 744px; 
-	 top: 4px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 118px;
-	 z-index:28;
-} 
+#EnglishSSVertical {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
 
- #ArtVertical 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:29;
-} 
+#EnglishSSDiagonal {
+  left: 744px;
+  top: 4px;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+}
 
- #ArtDiagonal 
-{ 
-	 left: 745px; 
-	 top: 14px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 118px;
-	 z-index:30;
-} 
+#ArtVertical {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
 
- #PerformingArtsVertic 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:31;
-} 
+#ArtDiagonal {
+  left: 745px;
+  top: 14px;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+}
 
- #PerformingArtsDiagon 
-{ 
-	 left: 737px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 118px;
-	 z-index:32;
-} 
+#PerformingArtsVertic {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
 
- #WorldLanguageVertica 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:33;
-} 
+#PerformingArtsDiagon {
+  left: 737px;
+  top: 11px;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+}
 
- #WorldLanguageDiagona 
-{ 
-	 left: 758px; 
-	 top: 4px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 118px;
-	 z-index:34;
-} 
+#WorldLanguageVertica {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
 
- #HealthVertical 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:35;
-} 
+#WorldLanguageDiagona {
+  left: 758px;
+  top: 4px;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+}
 
- #HealthDiagonal 
-{ 
-	 left: 764px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 118px;
-	 z-index:36;
-} 
+#HealthVertical {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
 
- #StudentServicesVerti 
-{ 
-	 left: 653px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 80px;
-	 height: 88px;
-	 z-index:37;
-} 
+#HealthDiagonal {
+  left: 764px;
+  top: 11px;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+}
 
- #StudentServicesDiago 
-{ 
-	 left: 736px; 
-	 top: 11px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 118px;
-	 z-index:38;
-} 
+#StudentServicesVerti {
+  left: 653px;
+  top: 11px;
+  position: absolute;
+  width: 80px;
+  height: 88px;
+}
+
+#StudentServicesDiago {
+  left: 736px;
+  top: 11px;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+}
