@@ -1,40 +1,580 @@
-html {
-    height: 100%;
+/* 
+=================== Browser Reset =========================================
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-    background-color: rgba(176, 227, 243, 0.555);
-    cursor: default;
-    font-size: 62.5%;
+  line-height: 1;
 }
 
-h1, h2{
-    text-align: center;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
-.container {
-    text-align: center;
-    font-size: 24px;
+nav ul {
+  list-style: none;
 }
 
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+/* ================================================================================================= */
+/* =============================== End of Browser reset ============================================ */
+/* ================================================================================================= */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive Images */
 img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-}   
-
-p {
-    font-size: 22px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left; 
+  max-width: 100%;
+  height: auto;
 }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1920px;
+	 height: 698px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
 
-.more-link {
-    display: inline-block;
-    margin-left: 10px;
-}
+ #Background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1920px;
+	 height: 698px;
+	 z-index:1;
+} 
 
-.less-link {
-    display: inline-block;
-    margin-left: 10px;
-}
+ #Floor1 
+{ 
+	 left: 56px; 
+	 top: 27px; 
+	 position: absolute; 
+	 width: 1808px;
+	 height: 644px;
+	 z-index:2;
+} 
+
+ #EnglishSSFloor1 
+{ 
+	 left: 71px; 
+	 top: 92px; 
+	 position: absolute; 
+	 width: 193px;
+	 height: 123px;
+	 z-index:3;
+} 
+
+ #PerformingArtsFloor1 
+{ 
+	 left: 506px; 
+	 top: 165px; 
+	 position: absolute; 
+	 width: 257px;
+	 height: 138px;
+	 z-index:4;
+} 
+
+ #StudentServicesFloor 
+{ 
+	 left: 506px; 
+	 top: 279px; 
+	 position: absolute; 
+	 width: 156px;
+	 height: 226px;
+	 z-index:5;
+} 
+
+ #Floor2 
+{ 
+	 left: 57px; 
+	 top: 31px; 
+	 position: absolute; 
+	 width: 1808px;
+	 height: 637px;
+	 z-index:6;
+} 
+
+ #MathFloor2 
+{ 
+	 left: 71px; 
+	 top: 83px; 
+	 position: absolute; 
+	 width: 1133px;
+	 height: 291px;
+	 z-index:7;
+} 
+
+ #ScienceFloor2 
+{ 
+	 left: 262px; 
+	 top: 339px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 260px;
+	 z-index:8;
+} 
+
+ #EnglishSSFloor2 
+{ 
+	 left: 93px; 
+	 top: 88px; 
+	 position: absolute; 
+	 width: 634px;
+	 height: 511px;
+	 z-index:9;
+} 
+
+ #ArtFloor2 
+{ 
+	 left: 392px; 
+	 top: 102px; 
+	 position: absolute; 
+	 width: 372px;
+	 height: 299px;
+	 z-index:10;
+} 
+
+ #PerformingArtsFloor2 
+{ 
+	 left: 585px; 
+	 top: 341px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 85px;
+	 z-index:11;
+} 
+
+ #Floor3 
+{ 
+	 left: 57px; 
+	 top: 28px; 
+	 position: absolute; 
+	 width: 1808px;
+	 height: 644px;
+	 z-index:12;
+} 
+
+ #MathFloor3 
+{ 
+	 left: 624px; 
+	 top: 99px; 
+	 position: absolute; 
+	 width: 214px;
+	 height: 208px;
+	 z-index:13;
+} 
+
+ #ScienceFloor3 
+{ 
+	 left: 333px; 
+	 top: 389px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 18px;
+	 z-index:14;
+} 
+
+ #HealthFloor3 
+{ 
+	 left: 599px; 
+	 top: 227px; 
+	 position: absolute; 
+	 width: 46px;
+	 height: 85px;
+	 z-index:15;
+} 
+
+ #EnglishSSFloor3 
+{ 
+	 left: 68px; 
+	 top: 82px; 
+	 position: absolute; 
+	 width: 714px;
+	 height: 427px;
+	 z-index:16;
+} 
+
+ #WorldLanguageFloor3 
+{ 
+	 left: 307px; 
+	 top: 85px; 
+	 position: absolute; 
+	 width: 413px;
+	 height: 268px;
+	 z-index:17;
+} 
+
+ #StudentServicesFloor_0 
+{ 
+	 left: 493px; 
+	 top: 77px; 
+	 position: absolute; 
+	 width: 727px;
+	 height: 363px;
+	 z-index:18;
+} 
+
+ #SETTHESEROOMSTOSCIEN 
+{ 
+	 left: 259px; 
+	 top: 390px; 
+	 position: absolute; 
+	 width: 207px;
+	 height: 209px;
+	 z-index:19;
+} 
+
+ #Floor4 
+{ 
+	 left: 57px; 
+	 top: 42px; 
+	 position: absolute; 
+	 width: 1808px;
+	 height: 615px;
+	 z-index:20;
+} 
+
+ #WorldLanguageFloor4 
+{ 
+	 left: 282px; 
+	 top: 69px; 
+	 position: absolute; 
+	 width: 346px;
+	 height: 129px;
+	 z-index:21;
+} 
+
+ #PerformingArtsFloor4 
+{ 
+	 left: 512px; 
+	 top: 346px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 151px;
+	 z-index:22;
+} 
+
+ #MathVertical 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:23;
+} 
+
+ #MathDiagonal 
+{ 
+	 left: 877px; 
+	 top: 5px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 119px;
+	 z-index:24;
+} 
+
+ #ScienceVertical 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:25;
+} 
+
+ #ScienceDiagonal 
+{ 
+	 left: 729px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 118px;
+	 z-index:26;
+} 
+
+ #EnglishSSVertical 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:27;
+} 
+
+ #EnglishSSDiagonal 
+{ 
+	 left: 744px; 
+	 top: 4px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 118px;
+	 z-index:28;
+} 
+
+ #ArtVertical 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:29;
+} 
+
+ #ArtDiagonal 
+{ 
+	 left: 745px; 
+	 top: 14px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 118px;
+	 z-index:30;
+} 
+
+ #PerformingArtsVertic 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:31;
+} 
+
+ #PerformingArtsDiagon 
+{ 
+	 left: 737px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 118px;
+	 z-index:32;
+} 
+
+ #WorldLanguageVertica 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:33;
+} 
+
+ #WorldLanguageDiagona 
+{ 
+	 left: 758px; 
+	 top: 4px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 118px;
+	 z-index:34;
+} 
+
+ #HealthVertical 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:35;
+} 
+
+ #HealthDiagonal 
+{ 
+	 left: 764px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 118px;
+	 z-index:36;
+} 
+
+ #StudentServicesVerti 
+{ 
+	 left: 653px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 80px;
+	 height: 88px;
+	 z-index:37;
+} 
+
+ #StudentServicesDiago 
+{ 
+	 left: 736px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 118px;
+	 z-index:38;
+} 
