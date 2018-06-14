@@ -186,7 +186,7 @@ img {
   height: auto;
 }
 
-#background {
+#main {
   left: 0px;
   top: 0px;
   position: relative;
@@ -197,6 +197,44 @@ img {
   overflow: hidden;
 }
 
+.floors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.one {
+  font-size: 1.6rem;
+  border-radius: 15px;
+  margin: 40px auto;
+  cursor: pointer;
+  display: block;
+}
+
+.two {
+  font-size: 1.6rem;
+  border-radius: 15px;
+  margin: 40px auto;
+  cursor: pointer;
+  display: block;
+}
+
+.three {
+  font-size: 1.6rem;
+  border-radius: 15px;
+  margin: 40px auto;
+  cursor: pointer;
+  display: block;
+}
+
+li {
+  margin-top: 10px;
+}
+
+/* ==================================================== */
+/* ============ PSD generated CSS ===================== */
+/* ==================================================== */
 #Background {
   left: 0px;
   top: 0px;
@@ -229,7 +267,7 @@ img {
   height: 138px;
 }
 
-#StudentServicesFloor {
+#StudentServicesFloor1 {
   left: 506px;
   top: 279px;
   position: absolute;
@@ -243,6 +281,7 @@ img {
   position: absolute;
   width: 1808px;
   height: 637px;
+  z-index: -99;
 }
 
 #MathFloor2 {
@@ -251,6 +290,7 @@ img {
   position: absolute;
   width: 1133px;
   height: 291px;
+  z-index: -99;
 }
 
 #ScienceFloor2 {
@@ -259,6 +299,7 @@ img {
   position: absolute;
   width: 162px;
   height: 260px;
+  z-index: -99;
 }
 
 #EnglishSSFloor2 {
@@ -267,6 +308,7 @@ img {
   position: absolute;
   width: 634px;
   height: 511px;
+  z-index: -99;
 }
 
 #ArtFloor2 {
@@ -275,6 +317,7 @@ img {
   position: absolute;
   width: 372px;
   height: 299px;
+  z-index: -99;
 }
 
 #PerformingArtsFloor2 {
@@ -283,6 +326,7 @@ img {
   position: absolute;
   width: 24px;
   height: 85px;
+  z-index: -99;
 }
 
 #Floor3 {
@@ -291,6 +335,7 @@ img {
   position: absolute;
   width: 1808px;
   height: 644px;
+  z-index: -99;
 }
 
 #MathFloor3 {
@@ -299,6 +344,7 @@ img {
   position: absolute;
   width: 214px;
   height: 208px;
+  z-index: -99;
 }
 
 #ScienceFloor3 {
@@ -307,6 +353,7 @@ img {
   position: absolute;
   width: 21px;
   height: 18px;
+  z-index: -99;
 }
 
 #HealthFloor3 {
@@ -315,6 +362,7 @@ img {
   position: absolute;
   width: 46px;
   height: 85px;
+  z-index: -99;
 }
 
 #EnglishSSFloor3 {
@@ -323,6 +371,7 @@ img {
   position: absolute;
   width: 714px;
   height: 427px;
+  z-index: -99;
 }
 
 #WorldLanguageFloor3 {
@@ -331,6 +380,7 @@ img {
   position: absolute;
   width: 413px;
   height: 268px;
+  z-index: -99;
 }
 
 #StudentServicesFloor_0 {
@@ -347,6 +397,7 @@ img {
   position: absolute;
   width: 207px;
   height: 209px;
+  z-index: -99;
 }
 
 #Floor4 {
@@ -355,6 +406,7 @@ img {
   position: absolute;
   width: 1808px;
   height: 615px;
+  z-index: -99;
 }
 
 #WorldLanguageFloor4 {
@@ -363,6 +415,7 @@ img {
   position: absolute;
   width: 346px;
   height: 129px;
+  z-index: -99;
 }
 
 #PerformingArtsFloor4 {
@@ -371,132 +424,5 @@ img {
   position: absolute;
   width: 121px;
   height: 151px;
-}
-
-#MathVertical {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#MathDiagonal {
-  left: 877px;
-  top: 5px;
-  position: absolute;
-  width: 118px;
-  height: 119px;
-}
-
-#ScienceVertical {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#ScienceDiagonal {
-  left: 729px;
-  top: 0px;
-  position: absolute;
-  width: 118px;
-  height: 118px;
-}
-
-#EnglishSSVertical {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#EnglishSSDiagonal {
-  left: 744px;
-  top: 4px;
-  position: absolute;
-  width: 118px;
-  height: 118px;
-}
-
-#ArtVertical {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#ArtDiagonal {
-  left: 745px;
-  top: 14px;
-  position: absolute;
-  width: 118px;
-  height: 118px;
-}
-
-#PerformingArtsVertic {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#PerformingArtsDiagon {
-  left: 737px;
-  top: 11px;
-  position: absolute;
-  width: 118px;
-  height: 118px;
-}
-
-#WorldLanguageVertica {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#WorldLanguageDiagona {
-  left: 758px;
-  top: 4px;
-  position: absolute;
-  width: 118px;
-  height: 118px;
-}
-
-#HealthVertical {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#HealthDiagonal {
-  left: 764px;
-  top: 11px;
-  position: absolute;
-  width: 118px;
-  height: 118px;
-}
-
-#StudentServicesVerti {
-  left: 653px;
-  top: 11px;
-  position: absolute;
-  width: 80px;
-  height: 88px;
-}
-
-#StudentServicesDiago {
-  left: 736px;
-  top: 11px;
-  position: absolute;
-  width: 118px;
-  height: 118px;
+  z-index: -99;
 }

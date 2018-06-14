@@ -2,12 +2,14 @@ const $ = require("jquery");
 
 // DOM is ready
 $(document).ready(function() {
-  // ============ Routine to reveal/hide layers ======== //
-  $("div").on("click", "img", (event) => {
-    const el = event.target;
-    /* var id = el.attr("id"); */
-     console.log(el);
+
+  // ============ Routine to reveal/hide elements on floor ======== //
+  $(".one").on("click", "li", event => {
+    const el = event.currentTarget;
+
+    const dept = $(el).data("department");
+    console.log(dept);
+    $(dept).toggleClass("hidden");
   });
+
 }); // end dom ready
-
-
