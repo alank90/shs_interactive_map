@@ -201,7 +201,7 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  margin: 10px -75px 0 10px;
 }
 
 .one {
@@ -221,6 +221,14 @@ img {
 }
 
 .three {
+  font-size: 1.6rem;
+  border-radius: 15px;
+  margin: 40px auto;
+  cursor: pointer;
+  display: block;
+}
+
+.four {
   font-size: 1.6rem;
   border-radius: 15px;
   margin: 40px auto;
