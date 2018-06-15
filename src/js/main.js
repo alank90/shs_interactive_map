@@ -12,4 +12,12 @@ $(document).ready(function() {
     $(dept).toggleClass("hidden");
   });
 
+  // Get the Floor Layout number that was clicked and
+  // call showFloorLayout to display clicked floor
+  $(".floors > div").on("click", event => {
+    const el = event.currentTarget;
+    const floor = $(el).data("floor");
+    console.log(floor);
+  });
+
 }); // end dom ready

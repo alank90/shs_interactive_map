@@ -11,11 +11,11 @@
 
 <body>
     <div id="main">
-        <div id="Background">
+        <!-- <div id="Background">
             <img src="src/img/Background.png">
-        </div>
-        <div class="first">
-            <div id="Floor1">
+        </div> -->
+        <div class="first-floor">
+            <div id="floor-one">
                 <img src="src/img/Floor1.png">
             </div>
             <div class="hidden first-floor" id="EnglishSSFloor1">
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="second-floor">
-            <div class="hidden" id="Floor2">
+            <div class="hidden" id="floor-two">
                 <img src="src/img/Floor2.png">
             </div>
             <div class="hidden" id="MathFloor2">
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="third-floor">
-            <div class="hidden" id="Floor3">
+            <div class="hidden" id="floor-three">
                 <img src="src/img/Floor3.png">
             </div>
             <div class="hidden" id="MathFloor3">
@@ -77,7 +77,7 @@
 
 
         <div class="fourth-floor">
-            <div class="hidden" id="Floor4">
+            <div class="hidden" id="floor-four">
                 <img src="src/img/Floor4.png">
             </div>
             <div class="hidden" id="WorldLanguageFloor4">
@@ -93,7 +93,7 @@
 
 
     <div class="floors">
-        <div class="one"> First Floor Layout
+        <div class="one" data-floor="floor-one"> First Floor Layout
             <ul>
                 <li data-department="#EnglishSSFloor1">English/Social Studies</li>
                 <li data-department="#PerformingArtsFloor1">Performing Arts</li>
@@ -101,7 +101,7 @@
             </ul>
 
         </div>
-        <div class="two"> 2ND Floor Layout
+        <div class="two" data-floor="floor-two"> 2ND Floor Layout
             <ul>
                 <li data-department="#MathFloor2">Second Floor Math</li>
                 <li data-department="#ScienceFloor2">Second Floor Science</li>
@@ -111,7 +111,7 @@
             </ul>
 
         </div>
-        <div class="three"> Third Floor Layout
+        <div class="three" data-floor="floor-three"> Third Floor Layout
             <ul>
                 <li data-department="#MathFloor3">Third Floor Math</li>
                 <li data-department="#ScienceFloor3">Third Floor Science</li>
@@ -123,7 +123,7 @@
 
         </div>
 
-        <div class="four"> Fourt Floor Layout
+        <div class="four" data-floor="floor-four"> Fourt Floor Layout
             <ul>
                 <li data-department="#WorldLanguageFloor4">Fourth Floor World Language</li>
                 <li data-department="#PerformingArtsFloor4">Fourth Floor Performing Arts</li>
