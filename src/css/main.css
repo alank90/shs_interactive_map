@@ -186,6 +186,12 @@ img {
   height: auto;
 }
 
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 15px;
+}
+
 #main {
   left: 0px;
   top: 0px;
@@ -204,11 +210,23 @@ img {
   margin: 10px -75px 0 10px;
 }
 
+div > span {
+  font-size: 1.3rem;
+  background-color: rgba(128, 0, 0, 0.35);
+  border-radius: 30px;
+  display: inline-block;
+  padding: 15px;
+  transition: all 0.5s ease;
+}
+  div > span:hover {
+    padding: 17px;
+    font-size: 1.5rem;
+  }
+
 .one {
   font-size: 1.6rem;
   border-radius: 15px;
   margin: 40px auto;
-  cursor: pointer;
   display: block;
 }
 
@@ -216,7 +234,6 @@ img {
   font-size: 1.6rem;
   border-radius: 15px;
   margin: 40px auto;
-  cursor: pointer;
   display: block;
 }
 
@@ -224,7 +241,6 @@ img {
   font-size: 1.6rem;
   border-radius: 15px;
   margin: 40px auto;
-  cursor: pointer;
   display: block;
 }
 
@@ -232,18 +248,88 @@ img {
   font-size: 1.6rem;
   border-radius: 15px;
   margin: 40px auto;
-  cursor: pointer;
   display: block;
 }
 
 li {
   margin-top: 10px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.5s ease-in;
+}
+  li:hover {
+    border-color: maroon;
+  }
+
+/* =========================================================================== */
+/* ============ Classes for Text Colors on li element when clicked =========== */
+/* =========================================================================== */
+.EnglishSSFloor1 {
+  color: #faa6f3;
 }
 
-/* Text Colors */
-.MathFloor2 {
-color: #8adbea;
+.PerformingArtsFloor1 {
+  color: #b885d0;
 }
+
+.StudentServicesFloor1 {
+  color: #9985d8;
+}
+
+.MathFloor2 {
+  color: #8adbea;
+}
+
+.ScienceFloor2 {
+  color: #84cd82;
+}
+
+.EnglishSSFloor2 {
+  color: #faa6f3;
+}
+
+.ArtFloor2 {
+  color: #8ef5db;
+}
+
+.PerformingArtsFloor2 {
+  color: #a875c0;
+}
+
+.MathFloor3 {
+  color: #8adbea;
+}
+
+.ScienceFloor3 {
+  color: #84cd82;
+}
+
+.HealthFloor3 {
+  color: #f58e8e;
+}
+
+.EnglishSSFloor3 {
+  color: #faa6f3;
+}
+
+.WorldLanguageFloor3 {
+  color: #e3b482;
+}
+
+.SETTHESEROOMSTOSCIEN {
+  color: #84cd82;
+}
+
+.WorldLanguageFloor4 {
+  color: #e3b482;
+}
+
+.PerformingArtsFloor4 {
+  color: #b885d0;
+}
+/* ========================================================== */
+/* =============== End text color classes =================== */
+/* ========================================================== */
 
 /* ==================================================== */
 /* ============ PSD generated CSS ===================== */

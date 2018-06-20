@@ -17,18 +17,17 @@ $(document).ready(function() {
        clicked on is equal to currentFloor. If not we then need 
        to call changeFloor method to clear out layout and change
        currentFloor.
-        */
+    */
     if (currentFloor !== newFloor) {
       currentFloor = changeFloor(currentFloor, newFloor);
-      console.log("The New Current floor is " + currentFloor);
     }
 
-    // Add dept to onscreen layout
+    // Add the DEPT clicked to the onscreen layout
     const DEPT = $(EL).data("department");
     console.log(`The clicked DEPT is ${DEPT}`);
     $(DEPT).toggleClass("hidden");
 
-    // Toggle the text color for choosen item 
+    // Toggle the text color for choosen item
     let menuItemChoosen = DEPT.substring(1);
     $(EL).toggleClass(menuItemChoosen);
   });
