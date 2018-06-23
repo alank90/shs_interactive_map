@@ -217,7 +217,7 @@ h1 {
 }
 
 div > span {
-  background-color: rgba(128, 0, 0, 0.25);
+  background-color: rgba(128, 0, 0, 0.45);
   border-radius: 30px;
   display: inline-block;
   font-size: 1.3rem;
@@ -225,7 +225,7 @@ div > span {
   transition: all 0.5s ease;
 }
   div > span:hover {
-    background-color: rgba(128, 0, 0, 0.45);
+    background-color: rgba(128, 0, 0, 0.25);
   }
 
 .one {
